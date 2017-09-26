@@ -1,0 +1,10 @@
+package oopAssignment;
+
+public class Joining {
+	public static void main(String[] args) {
+		
+		Student student = new Student("abhilash", 1234567890);
+		
+	}
+
+}

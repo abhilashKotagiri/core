@@ -1,0 +1,32 @@
+package oopAssignment;
+
+public class Student {
+	
+	String name;
+	int ssn;
+	private static int Id;
+	
+	Student(String name, int ssn){
+		this.name = name;
+		this.ssn = ssn;
+	}
+	
+	public String email(String name) {
+		
+		
+		String email = this.name + "@gmail.com";
+		return email;
+	}
+	
+	public void setId(int Id) {
+		this.Id = Id;
+		
+	}
+	
+	public String getId(int Id, String ssn) {
+		
+		String Uid = Id + "1000" + ssn.substring(6, 10);
+		return Uid;
+		
+	}
+}

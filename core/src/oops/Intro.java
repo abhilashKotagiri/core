@@ -1,0 +1,16 @@
+package oops;
+
+public class Intro {
+	
+	public static void main(String[] args) {
+		
+		
+		InterfaceImplementer1 imp1 = new InterfaceImplementer1();
+		InterfaceImplementer2 imp2 = new InterfaceImplementer2();
+		
+		System.out.println(imp2.game());
+		imp1.drinks();
+	}
+
+}
+

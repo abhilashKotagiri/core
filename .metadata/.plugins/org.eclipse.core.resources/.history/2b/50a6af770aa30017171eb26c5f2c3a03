@@ -1,0 +1,8 @@
+package oopAssignment;
+
+public class Student {
+	
+	Student(String name, int ssn){
+		
+	}
+}

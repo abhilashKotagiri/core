@@ -1,0 +1,13 @@
+
+public class Strings {
+	public static void main(String[] args) {
+		
+		String book = "Lord of the rings";
+		
+		if(book.contains("Lord")) {
+			System.out.println("the book contains Lord");
+			
+		}
+	}
+
+}

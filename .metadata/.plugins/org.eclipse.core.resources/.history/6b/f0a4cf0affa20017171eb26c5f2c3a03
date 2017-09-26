@@ -1,0 +1,14 @@
+package oops;
+
+public interface Interfaces {
+	
+	public static void game() {
+		
+	}
+	
+	public static void drinks() {
+		
+		
+	}
+
+}
