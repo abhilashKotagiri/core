@@ -17,6 +17,7 @@ public class Core {
     public static void main(String[] args) {
         // TODO code application logic here
     	System.out.println("Hey, adding code to my repo for the first time through git");
+        System.out.println("Moditfying code from github :) :)");
     }
     
 }
